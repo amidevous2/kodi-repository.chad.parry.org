@@ -5,8 +5,8 @@
     </requires>
     <extension point="xbmc.addon.repository" name="andykimpe">
         <dir>
-            <info compressed="true">https://andykimpe.ovh/kodirepo/addons.xml.gz</info>
-            <checksum>https://andykimpe.ovh/kodirepo/addons.xml.gz.md5</checksum>
+            <info compressed="true">https://andykimpe.ovh/kodi/addons.xml.gz</info>
+            <checksum>https://andykimpe.ovh/kodi/addons.xml.gz.md5</checksum>
             <datadir zip="true">https://andykimpe.ovh/kodi</datadir>
         </dir>
     </extension>
