@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.andykimpe.ovh" name="andykimpe Repository" version="1.0.0" provider-name="andykimpe">
+    <requires>
+        <import addon="xbmc.addon" version="20.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="andykimpe">
+        <dir>
+            <info compressed="true">https://andykimpe.ovh/kodirepo/addons.xml.gz</info>
+            <checksum>https://andykimpe.ovh/kodirepo/addons.xml.gz.md5</checksum>
+            <datadir zip="true">https://andykimpe.ovh/kodi</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>andykimpe Repository</summary>
+        <description>A repository of add-ons that andykimpe Repository developed for a personal Kodi system</description>
+        <disclaimer></disclaimer>
+        <news>1.0.0
+- Update repository format for Kodi v20+ (Nexus/Omega) compatibility
+- Add minimum version requirement (Kodi v20)</news>
+        <platform>all</platform>
+        <language></language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 1991</license>
+        <forum></forum>
+        <website></website>
+        <source>https://github.com/amidevous2/kodi-repository.chad.parry.org/</source>
+        <email>github at chad dot parry dot org</email>
+    </extension>
+</addon>
